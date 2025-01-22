@@ -1,0 +1,120 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(214,94,94,1) 58%);
+
+}
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 400px;
+    width: 650px;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+.nav-button {
+    height: 8px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-button i.icon {
+    margin-right: 8px; 
+  }
+  
+  .nav-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px;
+    color: black;
+    border-color: blue;
+    transform: scale(1.09);
+  }
+  
+  
+  .nav-button.active {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+button{
+    background-color: black;
+    
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left:10px;
+}
+button:hover{
+    border-color: rgb(69, 69, 69);
+    transform: scale(1.09);
+}
+button:active{
+    background-color: red;
+    transform: translate(4px);
+}
+#name{
+    background-color: black;
+    color: white;
+}
+img{
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    position: relative;
+    top: 40px;
+    left: 670px;
+}
+#info{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    left:200px;
+    top: 60px;
+}
+#role{
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+}
+#aboutme{
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+#namebox{
+    position: relative;
+    top:25px;
+    height:40px;
+    width: 220px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h2{
+    color: white;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+header{
+    text-align: center;
+    font-family: cursive;
+}
+#info{
+    color: black;
+    font-family:cursive;
+}
+#photo{
+    height: 200px;
+    border: 2px solid white;
+     border-radius: 10px;
+   
+}
+#skills{
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+#edu{
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+li{
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+h1{
+    font-family: cursive;
+}
